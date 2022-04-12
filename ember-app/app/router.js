@@ -7,9 +7,11 @@ const Router = EmberRouter.extend({
 
 Router.map(function () {
   this.route('timepath-test-task-response-e',
-  { path: 'timepath-test-task-response-e/:id' });
+    {path: 'timepath-test-task-response-e/:id'});
   this.route('timepath-test-task-response-e.new',
-  { path: 'timepath-test-task-response-e/new' });
+    {path: 'timepath-test-task-response-e/new'});
+  this.route('books',
+    {path: 'books'});
 });
 
 export default Router;

@@ -4,6 +4,7 @@ import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations'
 import TimepathTestTaskResponseLForm from './forms/timepath-test-task-response-l';
 import TimepathTestTaskResponseEForm from './forms/timepath-test-task-response-e';
 import TimepathTestTaskResponseModel from './models/timepath-test-task-response';
+import BooksForm from './forms/books';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -61,7 +62,6 @@ $.extend(true, translations, {
           'Кликните, чтобы перейти на GitHub.'
         }
       },
-
       sitemap: {
         'application-name': {
           caption: 'Тестовое задание',
@@ -98,6 +98,7 @@ $.extend(true, translations, {
     },
     'timepath-test-task-response-l': TimepathTestTaskResponseLForm,
     'timepath-test-task-response-e': TimepathTestTaskResponseEForm,
+    'books': BooksForm,
   },
 
 });

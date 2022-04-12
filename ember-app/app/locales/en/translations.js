@@ -4,6 +4,8 @@ import EmberFlexberryTranslations from 'ember-flexberry/locales/en/translations'
 import TimepathTestTaskResponseLForm from './forms/timepath-test-task-response-l';
 import TimepathTestTaskResponseEForm from './forms/timepath-test-task-response-e';
 import TimepathTestTaskResponseModel from './models/timepath-test-task-response';
+import BooksForm from './forms/books';
+
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -53,7 +55,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': 'Application caption',
+        'application-name': 'Test task',
         'application-version': {
           caption: 'Addon version {{version}}',
           title: 'It is version of ember-flexberry addon, which uses in this dummy application ' +
@@ -64,7 +66,7 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: 'Application caption',
+          caption: 'Test task',
           title: 'Application title'
         },
         'application-version': {
@@ -98,6 +100,7 @@ $.extend(true, translations, {
     },
     'timepath-test-task-response-l': TimepathTestTaskResponseLForm,
     'timepath-test-task-response-e': TimepathTestTaskResponseEForm,
+    'books': BooksForm,
   },
 
 });

@@ -14,9 +14,21 @@ export default Controller.extend({
     return {
       nodes: [
         {
+          link: 'application',
+          caption: 'Главная',
+          title: 'Главная',
+          children: null
+        },
+        {
           link: 'timepath-test-task-response-e.new',
           caption: 'Форма обратной связи',
           title: 'Форма обратной связи',
+          children: null
+        },
+        {
+          link: 'books',
+          caption: 'Список книг',
+          title: 'Список книг',
           children: null
         }
       ]
