@@ -1,0 +1,22 @@
+<h3 class="ui header">{{t "forms.books.caption"}}</h3>
+<table class="books-table">
+  <thead>
+  <tr>
+    <th>{{t "forms.books.tableHead.Name"}}</th>
+    <th>{{t "forms.books.tableHead.Author"}}</th>
+    <th>{{t "forms.books.tableHead.Pages"}}</th>
+    <th>{{t "forms.books.tableHead.ID"}}</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each model as |tableRow|}}
+    <tr>
+      <td>{{tableRow.Name}}</td>
+      <td>{{tableRow.Author}}</td>
+      <td>{{tableRow.Pages}}</td>
+      <td>{{tableRow.ID}}</td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>
+{{outlet}}
